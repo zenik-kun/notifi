@@ -11,21 +11,19 @@ export default function App() {
     <SafeAreaView className="h-full">
       <ScrollView contentContainerStyle={{ height:"100%" }}>
         <View className="w-full justify-center items-center h-full px-4">
-          <Image 
-            source={images.logo}
-            className="w-[250px]"
-            resizeMode='contain'
-          />
+          <Text className="text-5xl font-lblack my-8 py-2">
+            Notifi
+          </Text>
 
           <Image 
             source={images.cards}
-            className="max-w-[300px] w-full h-[275px]"
+            className="max-w-[300px] w-full h-[200px]"
             resizeMode='contain'
           />
 
           <View className="mt-5">
             <Text className="text-3xl text-black text-center font-lsemibold">
-              Track your Japa recitations with <Text className="text-primary">Chantify</Text>
+              Remind yourself through <Text className="text-primary">Notifi</Text>
             </Text>
 
           </View>
@@ -37,7 +35,7 @@ export default function App() {
           />
         </View>
       </ScrollView>
-      <StatusBar backgroundColor='#E05038' style='light' />
+      <StatusBar backgroundColor='#EAA0A2' style='light' />
     </SafeAreaView>
   );
 }
