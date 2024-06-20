@@ -11,9 +11,10 @@ export default function App() {
     <SafeAreaView className="h-full">
       <ScrollView contentContainerStyle={{ height:"100%" }}>
         <View className="w-full justify-center items-center h-full px-4">
-          <Text className="text-5xl font-lblack my-8 py-2">
-            Notifi
-          </Text>
+          <View className = "flex-row justify-center items-center">
+            <Image source={images.logoSmall} resizeMode='contain' className="w-[75px]"/>
+            <Text className="text-5xl text-black font-lmedium py-1">Notifi</Text>
+          </View>
 
           <Image 
             source={images.cards}
